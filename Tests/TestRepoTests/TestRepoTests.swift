@@ -6,6 +6,6 @@
             // This is an example of a functional test case.
             // Use XCTAssert and related functions to verify your tests produce the correct
             // results.
-            XCTAssertEqual(TestRepo().text, "Hello, World!")
+            XCTAssertEqual(TestRepo(iAmInternal: 1).text, "Hello, World!")
         }
     }
